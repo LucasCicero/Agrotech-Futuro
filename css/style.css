@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -23,8 +24,7 @@ html, body{
 
 /* Estilos para o cabeçalho (header) */
 header {
-    background-color: #333;
-    color: #fff;
+   background-color: #333;
     padding: 20px;
     text-align: center;
     margin-bottom: 1.5rem;
@@ -61,7 +61,10 @@ ul li a {
 #cultura .content {
     color: #333;
     max-width: 80rem;
-    margin: 0 auto;
+ /*   margin: 0 auto;*/
+    margin: 8rem auto; 
+
+
 }
 
 #sobre-nos p,
@@ -92,7 +95,8 @@ ul li a {
     align-items: center;
     width: 80rem;
     text-align: center;
-    margin: 0 auto;
+  /*  margin: 0 auto; */
+    margin: 8rem auto; 
 }
 
 #servicos .wrapper {
@@ -111,7 +115,7 @@ ul li a {
 #servicos img {
     width: 40rem;
     height: 40rem;
-    margin: 1rem 0;
+    margin: 5rem 0;
 }
 
 #servicos .flex {
@@ -143,3 +147,35 @@ ul li a {
 .contato-card ul li {
     margin-bottom: 10px;
 }
+#photo {
+    cursor: pointer;
+    transition: 0.3s;
+    width: 7rem;
+    height: 7rem;
+}
+  
+#photo:hover {
+    opacity: 0.7;
+}
+
+
+#carousel-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  #carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
