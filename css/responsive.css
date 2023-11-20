@@ -1,0 +1,99 @@
+/* Estilo para a barra de navegação */
+nav {
+  /*  background-color: #6c28c5;*/
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilo para as seções */
+section {
+   /*  padding: 20px;*/
+    word-break:break-all;
+}
+
+/* Adapte o tamanho da fonte para tamanhos de tela menores */
+@media screen and (max-width: 600px) {
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        float: none;
+        display: inline-block;
+        margin-right: 0;
+    }
+}
+
+/* Adapte o layout da seção de serviços para tamanhos de tela menores */
+@media screen and (max-width: 768px) {
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+    }
+
+    .mySlides {
+        display: none;
+    }
+
+    .mySlides img {
+        width: 100%;
+        height: auto;
+    }
+
+    .prev, .next {
+        display: none;
+    }
+
+    .dot {
+        display: none;
+    }
+
+    .wrapper {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 800px){
+    #servicos{
+        width:100vw;
+
+    }
+
+    #servicos .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #servicos img {
+        width: 20rem;
+        height: 20rem;
+        margin: 0 auto;
+       
+    }
+    #servicos .wrapper p{
+        font-size: 1.4rem;
+        text-align: center;
+        word-break:break-all;
+        margin:2rem 0;
+    }
+   
+
+}
