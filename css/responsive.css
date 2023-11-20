@@ -58,7 +58,10 @@ section {
     }
 
     .prev, .next {
-        display: none;
+       /* display: none;*/
+    }
+    .text{
+        font-size:1rem;
     }
 
     .dot {
@@ -67,7 +70,9 @@ section {
 
     .wrapper {
         text-align: center;
+       
     }
+
 
 }
 

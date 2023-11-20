@@ -131,26 +131,37 @@ ul li a {
 #contato {
     background-color: #f4f4f4;
     padding: 40px;
+
+     
 }
 
 .contato-card {
-    max-width: 400px;
+    max-width: 450px;
     margin: 0 auto;
     text-align: center;
+
 }
 
 .contato-card h1 {
-    color: #333;
+    color: #1b1b1b;
     margin-bottom: 20px;
+ 
 }
 
 .contato-card ul {
     list-style: none;
+
+    
 }
 
-.contato-card ul li {
+.contato-card ul li{
     margin-bottom: 10px;
+    
 }
+
+
+
+
 #photo {
     cursor: pointer;
     transition: 0.3s;
